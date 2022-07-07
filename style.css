@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10%;
+  margin: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+.main img {
+  width: 100%;
+  height: auto;
+  padding: 5% 1%;
+}
+.tlogo {
+  margin-right: 60%;
+}
+.main h2 {
+  padding: 5% 1%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main p {
+  padding: 5% 0%;
+  font-size: 0.8rem;
+}
+button {
+  background-color: white;
+  padding: 3% 25%;
+  margin: 3%;
+  border-radius: 50px;
+  color: plum;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+.attribution a {
+  color: white;
+}
+@media (min-width: 700px) {
+  .main {
+    padding: 1%;
+  }
+  .tlogo {
+    margin-right: 90%;
+    margin-top: 0%;
+  }
+  .main {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-main {
+    display: flex;
+    flex-direction: row;
+  }
+  .subA {
+    width: 60%;
+  }
+  .subB {
+    text-align: left;
+    width: 40%;
+    padding: 3%;
+  }
+  .subB h2 {
+    margin: 10% 0%;
+    padding: 0%;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: left;
+  }
+  .subB p {
+    font-size: 1rem;
+    margin-bottom: 10%;
+  }
+  .subB button {
+    padding: 5% 15%;
+    border-radius: 50px;
+  }
+  footer {
+    width: 100%;
+  }
+  .attribution p {
+    font-size: 3rem;
+  }
+}
